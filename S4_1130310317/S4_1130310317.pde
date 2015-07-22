@@ -5,7 +5,8 @@ class Ball{
   
   //constructor for initialization
   Ball(){
-    x = y = width/4;
+    x = width/4 * 3;
+    y = height/4;
     c = this.getRandomColor();
   }
   //display the ball
